@@ -1,0 +1,18 @@
+nav div, nav, .navbar-brand, .nav-item {
+    background-color: white;
+}
+.nav-span-bi {
+    padding-inline: 10px;
+    color: #5271ff;
+    font-weight: 500 !important;
+    border-radius: 3px;
+    font-size: 1.5em;
+}
+.navbar-toggler {
+    border: 0 !important;
+}
+.navbar-toggler:hover,
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    box-shadow: 0 0 0 !important;
+}

@@ -5,7 +5,9 @@ function Home() {
   return (
     <>
      <Navbar />
-     <p>Hello world</p>
+     <div className='container'>
+        <p>Hello world</p>
+     </div>
     </>
   )
 }
