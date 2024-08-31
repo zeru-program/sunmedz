@@ -4,3 +4,15 @@
     background: #f0f3ff;
     font-family: "Poppins", sans-serif;
 }
+.con {
+    margin-inline: 30px;
+}
+a {
+    text-decoration: none !important;
+}
+p {
+    font-size: .9em;
+}
+.bg-dangersec {
+    background-color: #ffc6c8;
+}

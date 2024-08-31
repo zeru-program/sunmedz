@@ -17,9 +17,49 @@ nav div, nav, .navbar-brand, .nav-item {
     box-shadow: 0 0 0 !important;
 }
 
-@media screen (min-width: 768px) {
-    .navbar-collapse .navbar-nav {
-        position: fixed !important;
-        right: 10px !important;
+@media screen and (max-width: 500px) {
+    .btn-login {
+        width: 100%;
+    }
+    .btn-mode-xs {
+        display: none !important;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 999px) {
+    .navbar-collapse {
+        display: flex;
+        position: absolute !important;
+        right: 20px !important;
+        top: 10px !important;
+        gap: 20px;
+        padding: 0 !important;
+    }
+    .navbar-toggler {
+        display: none;
+    }
+    .order-text {
+        display: none !important;
+    }
+    .btn-mode-ms {
+        display: none !important;
+    }
+}
+@media screen and (min-width: 700px) {
+    .navbar-collapse {
+        display: flex;
+        position: absolute !important;
+        right: 20px !important;
+        top: 10px !important;
+        gap: 20px;
+        padding: 0 !important;
+    }
+    .navbar-toggler {
+        display: none;
+    }
+    .order-text {
+        display: none !important;
+    }
+    .btn-mode-ms {
+        display: none !important;
     }
 }
