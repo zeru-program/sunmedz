@@ -143,7 +143,7 @@ function TentangSunmed() {
     <div className="w-100 tentang-sunmed py-3">
       <h3 className='m-0 mt-3 bg-transparent text-center'>Tentang SunMed</h3>
       <p className='bg-transparent con text-center'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur modi eaque magnam delectus dolore. Earum a soluta saepe odit ipsum, ad illo perferendis eaque sunt nemo minima temporibus eveniet reiciendis.</p>
-      <div className='d-flex justify-content-center align-items-center gap-3 py-3 bg-transparent mt-3'>
+      <div className='d-flex justify-content-center info-ben-con align-items-center gap-2 py-3 bg-transparent mt-3'>
         <div className='bg-secondary info-benefit'>
         <i class="bi bg-transparent text-primary bi-currency-dollar"></i>
         </div>
@@ -152,7 +152,7 @@ function TentangSunmed() {
          <p className='bg-transparent'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, aspernatur!</p>
         </div>
       </div>
-      <div className='d-flex justify-content-center align-items-center gap-3 py-3 bg-transparent mt-3'>
+      <div className='d-flex justify-content-center info-ben-con align-items-center gap-2 py-3 bg-transparent mt-3'>
         <div className='bg-secondary info-benefit'>
         <i class="bi bg-transparent text-primary bi-hourglass-bottom"></i>
         </div>
@@ -161,7 +161,7 @@ function TentangSunmed() {
          <p className='bg-transparent'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, aspernatur!</p>
         </div>
       </div>
-      <div className='d-flex justify-content-center align-items-center gap-3 py-3 bg-transparent mt-3'>
+      <div className='d-flex justify-content-center info-ben-con align-items-center gap-2 py-3 bg-transparent mt-3'>
         <div className='bg-secondary info-benefit'>
         <i class="bi bg-transparent text-primary bi-file-medical"></i>
         </div>

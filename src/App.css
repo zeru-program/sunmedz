@@ -72,12 +72,18 @@
         height: 200px;
     }
     .img-menu-produk {
-        width: 20px;
+        width: 23px;
     }
     .text-menu {
-        font-size: .5em;
+        font-size: .6em;
     }
     .card-produk {
         width: 150px;
+    }
+    .info-ben-con {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 0 !important;
     }
 }
