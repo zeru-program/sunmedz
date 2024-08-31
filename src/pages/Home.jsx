@@ -17,10 +17,14 @@ function TextWelcome() {
 }
 
 function MenuProduk() {
+  function Navigate(param) {
+    alert(param)
+  }
+
   return (
     <div className='bg-transparent d-flex justify-content-center'>
         <div className="con d-flex justify-content-center con-menu-produk py-3">
-          <button className='btn-menu-produk'>
+          <button className='btn-menu-produk' onClick={() => Navigate("fol")}>
             <img src="/fol.svg" className='img-menu-produk' alt="" />
             <p className='bg-transparent text-primary text-menu m-0 fw-bold'>Followers</p>
           </button>
@@ -45,7 +49,7 @@ function Banner() {
   return (
     <div className="banner pb-5 py-3">
       <div className='con my-3'>
-      <Swiper navigation={true} modules={[Navigation]}  autoplayDelay={2500} centeredSlides={true} autoplay={true} loop={true} className="swiper-banner">
+      <Swiper  autoplayDelay={2500} centeredSlides={true} autoplay={true} loop={true} className="swiper-banner">
         <SwiperSlide>Slide 1</SwiperSlide>
         <SwiperSlide>Slide 2</SwiperSlide>
         <SwiperSlide>Slide 3</SwiperSlide>
