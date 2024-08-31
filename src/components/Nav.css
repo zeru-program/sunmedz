@@ -16,6 +16,9 @@ nav div, nav, .navbar-brand, .nav-item {
 .navbar-toggler:active {
     box-shadow: 0 0 0 !important;
 }
+.btn-mode-ms {
+    padding: 8px 15px !important;
+}
 
 @media screen and (max-width: 500px) {
     .btn-login {
@@ -25,7 +28,6 @@ nav div, nav, .navbar-brand, .nav-item {
         display: none !important;
     }
     .navbar-collapse {
-        padding-block: 30px;
     }
 }
 @media screen and (min-width: 501px) and (max-width: 999px) {
