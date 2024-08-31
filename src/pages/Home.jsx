@@ -22,19 +22,19 @@ function MenuProduk() {
         <div className="con d-flex justify-content-center con-menu-produk py-3">
           <button className='btn-menu-produk'>
             <img src="/fol.svg" className='img-menu-produk' alt="" />
-            <p className='bg-transparent text-primary m-0 fw-bold'>Followers</p>
+            <p className='bg-transparent text-primary text-menu m-0 fw-bold'>Followers</p>
           </button>
           <button className='btn-menu-produk'>
             <img src="/liker.svg" className='img-menu-produk' alt="" />
-            <p className='bg-transparent text-primary m-0 fw-bold'>Likers</p>
+            <p className='bg-transparent text-primary text-menu m-0 fw-bold'>Likers</p>
           </button>
           <button className='btn-menu-produk'>
             <img src="/view.svg" className='img-menu-produk' alt="" />
-            <p className='bg-transparent text-primary m-0 fw-bold'>Viewers</p>
+            <p className='bg-transparent text-primary text-menu m-0 fw-bold'>Viewers</p>
           </button>
           <button className='btn-menu-produk'>
             <img src="/comment.svg" className='img-menu-produk' alt="" />
-            <p className='bg-transparent text-primary m-0 fw-bold'>Comments</p>
+            <p className='bg-transparent text-primary text-menu m-0 fw-bold'>Comments</p>
           </button>
         </div>
       </div>

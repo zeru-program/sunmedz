@@ -71,4 +71,13 @@
     .swiper-banner {
         height: 200px;
     }
+    .img-menu-produk {
+        width: 20px;
+    }
+    .text-menu {
+        font-size: .5em;
+    }
+    .card-produk {
+        width: 150px;
+    }
 }

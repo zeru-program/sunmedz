@@ -24,6 +24,9 @@ nav div, nav, .navbar-brand, .nav-item {
     .btn-mode-xs {
         display: none !important;
     }
+    .navbar-collapse {
+        padding-block: 30px;
+    }
 }
 @media screen and (min-width: 501px) and (max-width: 999px) {
     .navbar-collapse {
